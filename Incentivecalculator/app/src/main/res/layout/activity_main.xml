@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true"
+    >
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="50dp"
+        android:onClick="Gotoonetofour"
+        android:text="1st Semester to 4th Semester"
+        android:textSize="@dimen/_16sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/button2"
+        android:onClick="Gotofivetonine"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="50dp"
+        android:textSize="@dimen/_16sdp"
+        android:text="5th Semester to 9th Semester"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:onClick="Gototentotwelve"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="50dp"
+        android:textSize="@dimen/_16sdp"
+        android:text="10th Semester to 12th Semester"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:onClick="About"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="50dp"
+        android:text="About"
+        android:textSize="@dimen/_16sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button6"
+        android:onClick="Gotodashboard"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="50dp"
+        android:text="Dashboard"
+        android:textSize="@dimen/_16sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

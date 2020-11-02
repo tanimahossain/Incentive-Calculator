@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Incentive calculator</string>
+
+    <string name="About_Developer">
+        This app is developed by\n
+        <i>Tanima Hossain</i>\n
+        ID: 181-15-10733\n
+        Email: tanimahossain01@gmail.com\n
+        Mobile: 01521438996\n
+    </string>
+    <string name="About_1to4">
+        You\'ll get 0.25 marks for per solve in blue\n
+    </string>
+    <string name="About_Incentive">
+        Realizing the significance of problem solvers in the current International job market,
+        the Computer Science and Engineering department of Daffodil International University has initiated
+        some academic incentives for the promising problem solvers of DIU. As they are already struggling
+        to keep going with problem-solving and it consumes most of their time, it’s not always possible to maintain
+        both sides with dedication and finally achieve something big. So, we’re going to start a new era where problem
+        solvers will get proper support from the department so that they can serve the country with their skills and uphold
+        the prestige of our Department and University.\n
+        To know more about incentive criteria and marks, click the button below.
+    </string>
+</resources>
